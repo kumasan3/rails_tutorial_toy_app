@@ -22,5 +22,8 @@ test:
 
 production:
   <<: *default
-  adapter: postgres
+  database: toy_app_production
+  adapter: postgresql
+  host: localhost
+  password: toy_app
   # database: db/production.sqlite3
